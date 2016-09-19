@@ -1,0 +1,44 @@
+#chicken{
+
+			background-color: #d59898
+			color :#161616;
+		}
+
+		#beef{
+			background-color: #c14543;
+    		color: #e8e8e8;
+		}
+		#sushi{
+			background-color: #e5d198;
+    		color: #161616;
+		}
+		
+		@media (min-width: 768px) and (max-width: 991px) {
+    	section {
+        	float: left;
+        	margin-right: 2.5%;
+        	width: 46.25%;
+    	}
+    	#chicken {
+      	  margin-left: 2.5%;
+    	}
+
+    	#sushi {
+        	clear: left;
+        	margin-left: 2.5%;
+        	width: 95%;
+    	}
+
+    	#h2 {
+        	margin: 0 0 0 80%;
+        	width: 20%;
+    	}
+    	@media (max-width: 767px) {
+    	section {
+        	margin-left: 2.5%;
+        	margin-right: 2.5%;
+        	width: 95%;
+    	}
+}
+
+}
